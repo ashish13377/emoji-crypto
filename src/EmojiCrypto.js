@@ -4,7 +4,7 @@ const { Transform } = require("stream");
 const { DEFAULT } = require("./config");
 const { deriveKey, bufToEmoji, emojiToBuf } = require("./utils");
 const { ValidationError, AuthenticationError } = require("./errors");
-
+/* global Buffer */
 class EmojiCrypto {
 	constructor(config = {}) {
 		this.config = {
@@ -74,7 +74,7 @@ class EmojiCrypto {
 			const plainBuf = Buffer.concat([decipher.update(ct), decipher.final()]);
 			if (onProgress) onProgress(plainBuf.length);
 			return plainBuf.toString("utf8");
-		} catch (err) {
+		} catch {
 			throw new AuthenticationError(
 				"Decryption failed: authentication tag mismatch"
 			);

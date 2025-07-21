@@ -4,7 +4,7 @@ const GraphemeSplitter = require("grapheme-splitter");
 const { ValidationError } = require("./errors");
 
 const splitter = new GraphemeSplitter();
-
+/* global Buffer */
 function deriveKey(password, salt, opts) {
 	return crypto.pbkdf2Sync(
 		password,
