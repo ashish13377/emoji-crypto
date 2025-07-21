@@ -21,7 +21,10 @@
 | 🛠**Hackable**                      | Swap out the emoji map, KDF params, IV length, etc. via`configure()`  |
 
 ## 📦 Installation
+
 [![npm version](https://badge.fury.io/js/%40ashish-dev-creation%2Femoji-crypt.svg)](https://www.npmjs.com/package/@ashish-dev-creation/emoji-crypt)
+
+[Live Demo on Vercel](https://demo-emoji-crypt.vercel.app/)
 
 ```bash
 npm install @ashish-dev-creation/emoji-crypt

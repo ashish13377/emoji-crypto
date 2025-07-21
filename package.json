@@ -4,6 +4,7 @@
 	"description": "AES-256-GCM encryption with emoji-based encoding.",
 	"main": "emoji-crypto.js",
 	"types": "types/index.d.ts",
+	"homepage": "https://demo-emoji-crypt.vercel.app/",
 	"scripts": {
 		"test": "jest",
 		"lint": "eslint .",
