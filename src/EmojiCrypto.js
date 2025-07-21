@@ -1,4 +1,5 @@
-// -- src/EmojiCrypto.js -----------------------------------------------------const crypto = require("crypto");
+// -- src/EmojiCrypto.js -----------------------------------------------------
+const crypto = require("crypto");
 const { Transform } = require("stream");
 const { DEFAULT } = require("./config");
 const { deriveKey, bufToEmoji, emojiToBuf } = require("./utils");

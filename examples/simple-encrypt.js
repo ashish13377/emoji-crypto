@@ -1,5 +1,5 @@
 // demo.js
-const { encrypt, decrypt } = require("../src/index");
+const { encrypt, decrypt } = require("../emoji-crypto");
 
 const password = "mySecret123";
 const message = "Hello, Emoji Crypto!";

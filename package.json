@@ -2,8 +2,8 @@
 	"name": "emoji-crypt",
 	"version": "1.0.0",
 	"description": "AES-256-GCM encryption with emoji-based encoding.",
-	"main": "src/index.js",
-	"types": "types/index.d.ts",
+	"main": "/emoji-crypto.js",
+	"types": "/types/index.d.ts",
 	"scripts": {
 		"test": "jest",
 		"lint": "eslint ."
@@ -23,7 +23,8 @@
 	"license": "MIT",
 	"dependencies": {
 		"crypto": "^1.0.1",
-		"grapheme-splitter": "^1.0.4"
+		"grapheme-splitter": "^1.0.4",
+		"unicode-emoji-json": "^0.8.0"
 	},
 	"devDependencies": {
 		"eslint": "^8.0.0",
