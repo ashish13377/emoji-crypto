@@ -27,7 +27,7 @@ export default defineConfig([
 		},
 	},
 	{
-		files: ["examples/**/*.js"], // ⬅️ NEW BLOCK for your example scripts
+		files: ["examples/**/*.js"], 
 		languageOptions: {
 			globals: {
 				...globals.node, // enables `console`, `process`, `Buffer`, etc.
