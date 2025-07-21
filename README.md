@@ -1,7 +1,7 @@
 # emoji‑crypto
 
 <div align="center" >
-  <img src="https://res.cloudinary.com/diyncva2v/image/upload/v1753081544/ygulghdwsx0zxooo1liv.png" target="_blank" alt="Ezhire App" style="max-width: 50%; height: 100px; border-radius: 15px;" />
+  <img src="https://res.cloudinary.com/diyncva2v/image/upload/v1753081544/ygulghdwsx0zxooo1liv.png" target="_blank" alt="Ezhire App" style="max-width: 50%; height: 350px; border-radius: 15px;" />
 </div>
 
 ---
