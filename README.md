@@ -22,11 +22,11 @@
 
 ## 📦 Installation
 [![npm version](https://badge.fury.io/js/%40ashish-dev-creation%2Femoji-crypt.svg)](https://www.npmjs.com/package/@ashish-dev-creation/emoji-crypt)
-
+📦 Published as a [scoped npm package](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#name), install via:
 ```bash
-npm install emoji-crypto
+npm install @ashish-dev-creation/emoji-crypt
 # or
-yarn add emoji-crypto
+yarn add @ashish-dev-creation/emoji-crypt
 ```
 
 ## ⚡ Quick Start
@@ -130,4 +130,4 @@ validateEmojiSet(my256EmojiArray); // throws if not valid
 
 ## 📝 License
 
-This project is licensed under the [MIT License](https://github.com/ashish13377/Intellido?tab=MIT-1-ov-file)
+This project is licensed under the [MIT License](https://github.com/ashish13377/emoji-crypto?tab=MIT-1-ov-file)
