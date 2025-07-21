@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/yourusername/emoji-crypt.git"
+		"url": "https://github.com/ashish13377/emoji-crypto.git"
 	},
 	"keywords": [
 		"encryption",
@@ -19,7 +19,7 @@
 		"aes",
 		"pbkdf2"
 	],
-	"author": "Your Name <you@example.com>",
+	"author": "Ashish Kumar <ashish.worksspace@gmail.com>",
 	"license": "MIT",
 	"dependencies": {
 		"crypto": "^1.0.1",
