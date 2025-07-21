@@ -22,7 +22,7 @@
 
 ## 📦 Installation
 [![npm version](https://badge.fury.io/js/%40ashish-dev-creation%2Femoji-crypt.svg)](https://www.npmjs.com/package/@ashish-dev-creation/emoji-crypt)
-📦 Published as a [scoped npm package](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#name), install via:
+
 ```bash
 npm install @ashish-dev-creation/emoji-crypt
 # or
