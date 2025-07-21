@@ -23,8 +23,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"crypto": "^1.0.1",
-		"grapheme-splitter": "^1.0.4",
-		"unicode-emoji-json": "^0.8.0"
+		"grapheme-splitter": "^1.0.4"
 	},
 	"devDependencies": {
 		"eslint": "^8.0.0",
