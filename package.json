@@ -1,12 +1,13 @@
 {
 	"name": "@ashish-dev-creation/emoji-crypt",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "AES-256-GCM encryption with emoji-based encoding.",
 	"main": "/emoji-crypto.js",
 	"types": "/types/index.d.ts",
 	"scripts": {
 		"test": "jest",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"prepublishOnly": "npm run lint && npm test"
 	},
 	"repository": {
 		"type": "git",
