@@ -1,5 +1,5 @@
 {
-	"name": "emoji-crypt",
+	"name": "@ashish-dev-creation/emoji-crypt",
 	"version": "1.0.0",
 	"description": "AES-256-GCM encryption with emoji-based encoding.",
 	"main": "/emoji-crypto.js",
